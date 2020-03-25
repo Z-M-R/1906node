@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
 
 //const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
-const uri = "mongodb://192.168.93.94";
+const uri = "mongodb://192.168.93.170";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
 
